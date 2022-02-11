@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+.first-page {
   background-image: url(../Portfolio/images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -17,10 +17,11 @@ header {
   margin-right: 15px;
 }
 
-#head p {
+#head a {
   margin-left: 15px;
   font-weight: bold;
   color: rgb(55, 113, 223);
+  text-decoration: none;
 }
 
 #head {
