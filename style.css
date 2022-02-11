@@ -9,7 +9,7 @@ header {
   background-size: contain;
   width: 340px;
   height: 700px;
- }
+}
 
 #head img {
   width: 30px;
@@ -57,4 +57,4 @@ li {
   list-style-type: none;
   margin-right: 40px;
   margin-left: -20px;
-} 
+}
