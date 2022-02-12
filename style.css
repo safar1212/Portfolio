@@ -160,7 +160,6 @@
 }
 
 .buttons {
-  margin-top: 20px;
   padding: 30px 0;
   margin: 0 auto;
   width: 260px;
@@ -201,4 +200,145 @@
 
 .page-5 .year {
   margin-top: 20px;
+}
+
+/* About US page */
+
+.about-us {
+  width: 340px;
+  height: 1300px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.title {
+  height: 180px;
+  font-size: 35px;
+  width: 290px;
+  margin: 0 auto;
+}
+
+.para1 {
+  height: 150px;
+  width: 290px;
+  margin: 0 auto;
+  font-weight: bold;
+  color: rgb(116, 111, 111);
+}
+
+.about-us .text {
+  font-weight: bold;
+  color: rgb(55, 113, 223);
+  width: 290px;
+  margin: 0 auto;
+}
+
+.about-us .icons {
+  width: 290px;
+  margin: 0 auto;
+}
+
+.about-us .buttons {
+  width: 290px;
+  margin: 0 auto;
+  height: 40px;
+}
+
+.about-us .buttons button {
+  width: 170px;
+}
+
+.lang {
+  align-items: center;
+  width: 290px;
+  margin: 30px auto;
+  height: 90px;
+}
+
+.lang ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.lang img {
+  height: 30px;
+  width: 30px;
+}
+
+.javascript {
+  display: flex;
+  border: white 2px solid;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  justify-content: flex-start;
+  align-items: center;
+  width: 290px;
+  margin: 30px auto;
+  height: 70px;
+}
+
+.javascript img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+}
+
+.html {
+  display: flex;
+  border: white 2px solid;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  justify-content: flex-start;
+  align-items: center;
+  width: 290px;
+  margin: 30px auto;
+  height: 70px;
+}
+
+.html img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+}
+
+.css {
+  display: flex;
+  border: white 2px solid;
+  border-radius: 15px;
+  background-color: whitesmoke;
+  justify-content: flex-start;
+  align-items: center;
+  width: 290px;
+  margin: 30px auto;
+  height: 70px;
+}
+
+.css img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+}
+
+.framework {
+  align-items: center;
+  width: 290px;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.framework ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.framework img {
+  height: 30px;
+  width: 30px;
 }
