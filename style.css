@@ -6,7 +6,6 @@
 /* header and headline */
 
 .first-page {
-  /* border: 2px green solid; */
   background-image: url(./images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -75,7 +74,6 @@
 /* Work-section */
 
 .main {
-  /* border: 2px red solid; */
   background-color: whitesmoke;
   width: 340px;
   height: 2800px;
@@ -87,7 +85,6 @@
 }
 
 .main > section {
-  /* border: 2px green solid; */
   border-radius: 15px;
   padding: 15px 0;
   background-color: white;
@@ -121,46 +118,29 @@
   width: 260px;
   margin: 0 auto;
   height: 70px;
-  display: inline-flex;
-  text-align: center;
+  padding: 10px 0;
 }
 
 .year {
-  /* border: 3px green solid; */
   width: 260px;
   margin: 0 auto;
-  padding-right: 8px;
-}
-
-.year ul {
   display: flex;
-  justify-content: space-between;
-  margin-right: 20px;
 }
 
-.year li {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  font-weight: bold;
-  color: rgb(116, 111, 111);
-}
-
-.page-2 .para {
-  /* border: gray 2px solid; */
-  width: 260px;
-  margin: 0 auto;
+.year p {
+  padding-right: 10px;
   font-weight: bold;
   color: rgb(116, 111, 111);
 }
 
 .para {
-  /* font-weight: bold;
-  color: rgb(116, 111, 111); */
+  width: 260px;
+  margin: 0 auto;
+  font-weight: bold;
+  color: rgb(116, 111, 111);
 }
 
 .skills {
-  /* border: 3px yellow solid; */
   width: 260px;
   height: 60px;
   display: flex;
@@ -169,8 +149,6 @@
 
 .skills p {
   display: inline-flex;
-
-  /* border: 1px whitesmoke solid; */
   border-radius: 10px;
   padding: 0 10px;
   margin-right: 10px;
@@ -182,7 +160,6 @@
 }
 
 .buttons {
-  /* border: 2px red solid; */
   margin-top: 20px;
   padding: 30px 0;
   margin: 0 auto;
@@ -204,89 +181,18 @@
   border-radius: 15px;
 }
 
+/* page-3 */
 
-
-/* .page-2 {
-  border: 3px green solid;
-}
-
-.page-3 {
-  border: gray 3px solid;
-}
-
-.page-4 {
-  border: 3px violet solid;
-}
-
-.page-5 {
-  border: 4px yellow solid;
-} */
-
-
-/* .second-page {
-  border: 2px red solid;
-  background-color: whitesmoke;
-  width: 340px;
-  height: 800px;
-  margin: 0 auto;
-  display: grid;
-  padding: 80px 20px 20px 20px;
-  grid-template-columns: auto;
-  grid-template-rows: 33% 12% 12% 15% 12.5% 17.5%;
-
-} */
-
-/* .second-page .picture {
-  border: red 2px solid;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding-top: 10px;
-  background-color: white;
-
-} */
-
-/* .picture img {
-  display: block;
-  width: 280px;
-  height: 225px;
-  margin: 0 auto;
-  padding: 8px;
-} */
-
-/* .heading {
-  border: black 2px solid;
-  background-color: white;
-
-} */
-
-/* .heading h1 {
-  color: black;
+.page-3 .heading h1 {
   font-size: 35px;
-  padding-bottom: 20px;
-  display: block;
-} */
+}
 
-/* .year {
-  border: green 2px solid;
-} */
+.page-3 .year {
+  margin-top: 20px;
+}
 
-/* year ul {
-  display: flex;
-} */
-
-/* .year li {
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .para {
-  border: 2px gray solid;
-} */
-
-/* .skills {
-  border: blue 2px solid;
-} */
-
-/* .button {
-  border: 2px violet solid;
+/* .page-3 .para {
+  /* padding: 0 10px; */
+font-weight: bold;
+color: rgb(116, 111, 111);
 } */
