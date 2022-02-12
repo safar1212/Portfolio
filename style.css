@@ -214,17 +214,10 @@ li {
   border-radius: 15px;
 }
 
-.buttons button:pressed {
-  border: 2px blue solid;
-  border-radius: 15px;
-  color: white;
-  background-color: rgb(25, 25, 201);
-}
-
 .buttons button:disabled {
   border: 2px whitesmoke solid;
   border-radius: 15px;
-  color: rgb(56, 48, 48)
+  color: rgb(56, 48, 48);
 }
 
 /* page-3 */
