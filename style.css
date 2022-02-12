@@ -149,7 +149,7 @@ li {
   font-size: 30px;
 }
 
-.heading h1 {
+.heading h2 {
   width: 260px;
   margin: 0 auto;
   height: 70px;
@@ -206,11 +206,30 @@ li {
 .buttons button:hover {
   border: 2px blue solid;
   border-radius: 15px;
+  color: white;
+  background-color: rgb(120, 120, 214);
+}
+
+.buttons button:enabled {
+  border-radius: 15px;
+}
+
+.buttons button:pressed {
+  border: 2px blue solid;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(25, 25, 201);
+}
+
+.buttons button:disabled {
+  border: 2px whitesmoke solid;
+  border-radius: 15px;
+  color: rgb(56, 48, 48)
 }
 
 /* page-3 */
 
-.page-3 .heading h1 {
+.page-3 .heading h2 {
   font-size: 35px;
 }
 
@@ -222,7 +241,7 @@ li {
 
 /* page-5 */
 
-.page-5 .heading h1 {
+.page-5 .heading h2 {
   font-size: 35px;
 }
 
