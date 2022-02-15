@@ -14,6 +14,10 @@
 
 ### Create a stunning headline
 
+### Create a work section
+
+### Create an about us page
+
 
 
 ## Authors
