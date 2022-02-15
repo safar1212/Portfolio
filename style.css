@@ -219,6 +219,7 @@ li {
   border-radius: 15px;
   color: rgb(56, 48, 48);
 }
+
 /* page-3 */
 
 .page-3 .heading h2 {
@@ -264,7 +265,7 @@ li {
   color: rgb(71, 70, 70);
 }
 
-  .about-us .text {
+.about-us .text {
   font-weight: bold;
   color: rgb(55, 113, 223);
   width: 290px;
