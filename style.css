@@ -10,6 +10,8 @@ body {
 
 .first-page {
   background-image: url(./images/background.jpg);
+  display: grid;
+  justify-content: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 600px;
@@ -294,9 +296,10 @@ footer .buttons {
   display: flex;
   justify-content: flex-start;
   width: 340px;
-  height: 75px;
+  height: 55px;
   padding-left: 15px;
-  padding-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 .about-us .buttons {
@@ -378,8 +381,8 @@ footer .buttons {
 footer {
   width: 100%;
   margin-top: 100px;
-  padding: 70px 0;
-  height: 779px;
+  padding-top: 70px;
+  height: 749px;
   background-color: #6070ff;
   border-top-left-radius: 80px;
   background-image:
