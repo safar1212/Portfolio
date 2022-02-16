@@ -353,3 +353,49 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
+footer {
+  width: 340px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 70px 0;
+  height: 779px;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  background-image:
+    url('images/1.svg'),
+    url('images/2.svg'),
+    url('images/3.svg'),
+    url('images/4.svg'),
+    url('images/5.svg');
+  background-position:
+    80% 90%,
+    100% 10%,
+    71% 91%,
+    40% 10%,
+    100% 6%;
+  background-repeat: no-repeat;
+}
+
+.contact-form {
+  display: grid;
+  justify-items: center;
+}
+
+.contact-form div input {
+  height: 45px;
+  width: 96.5%;
+  margin-top: 8%;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.contact-form div textarea {
+  height: 140px;
+  width: 98%;
+  margin-top: 8%;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  padding-left: 10px;
+}
