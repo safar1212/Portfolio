@@ -1,16 +1,17 @@
 * {
   font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
 /* header and headline */
 
 .first-page {
   background-image: url(./images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 340px 600px;
-  width: 340px;
+  background-size: 100% 600px;
   height: 650px;
   margin: 0 auto;
 }
@@ -121,9 +122,7 @@ li {
 
 .main {
   background-color: whitesmoke;
-  width: 340px;
   height: 2900px;
-  margin: 0 auto;
   display: grid;
   padding: 20px;
   align-content: space-around;
@@ -376,8 +375,7 @@ footer .buttons {
 /* footer */
 
 footer {
-  width: 340px;
-  margin: 0 auto;
+  width: 100%;
   margin-top: 100px;
   padding: 70px 0;
   height: 779px;
@@ -414,7 +412,7 @@ footer {
 
 .contact-form div textarea {
   height: 140px;
-  width: 98%;
+  width: 299px;
   margin-top: 8%;
   border: 1px solid rgb(230, 230, 230);
   border-radius: 10px;
