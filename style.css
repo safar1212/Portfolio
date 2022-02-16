@@ -203,6 +203,10 @@ li {
   color: rgb(25, 117, 238);
 }
 
+footer .buttons button {
+  width: 150px;
+}
+
 .buttons button:hover {
   border-radius: 15px;
   color: white;
@@ -284,6 +288,15 @@ li {
 .about-us .icons {
   width: 290px;
   margin: 0 auto;
+}
+
+footer .buttons {
+  display: flex;
+  justify-content: flex-start;
+  width: 340px;
+  height: 75px;
+  padding-left: 15px;
+  padding-top: 10px;
 }
 
 .about-us .buttons {
@@ -427,23 +440,9 @@ footer .contact-para {
   align-items: center;
   height: 130px;
   text-align: center;
-  align-items: center;
   align-content: center;
   color: #ebebff;
   padding: 0 20px;
   margin-top: 18px;
   font-size: 18px;
-}
-
-footer .buttons {
-  display: flex;
-  justify-content: flex-start;
-  width: 340px;
-  height: 75px;
-  padding-left: 15px;
-  padding-top: 10px;
-}
-
-footer .buttons button {
-  width: 150px;
 }
