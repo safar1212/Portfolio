@@ -204,20 +204,26 @@ li {
 }
 
 .buttons button:hover {
-  border: 2px blue solid;
   border-radius: 15px;
   color: white;
-  background-color: rgb(120, 120, 214);
+  background-color: #6070ff;
 }
 
 .buttons button:enabled {
   border-radius: 15px;
 }
 
+.buttons button:visited {
+  border-radius: 15px;
+  color: white;
+  background-color: blue;
+}
+
 .buttons button:disabled {
   border: 2px whitesmoke solid;
   border-radius: 15px;
   color: rgb(56, 48, 48);
+  background-color: white;
 }
 
 /* page-3 */
@@ -354,6 +360,8 @@ li {
   align-items: center;
 }
 
+/* footer */
+
 footer {
   width: 340px;
   margin: 0 auto;
@@ -363,11 +371,11 @@ footer {
   background-color: #6070ff;
   border-top-left-radius: 80px;
   background-image:
-    url('images/1.svg'),
-    url('images/2.svg'),
-    url('images/3.svg'),
-    url('images/4.svg'),
-    url('images/5.svg');
+    url('./images/1.svg'),
+    url('./images/2.svg'),
+    url('./images/3.svg'),
+    url('./images/4.svg'),
+    url('./images/5.svg');
   background-position:
     80% 90%,
     100% 10%,
@@ -385,9 +393,9 @@ footer {
 .contact-form div input {
   height: 45px;
   width: 96.5%;
-  margin-top: 8%;
+  margin-top: 10%;
   border: 1px solid rgb(230, 230, 230);
-  border-radius: 3px;
+  border-radius: 10px;
   padding-left: 10px;
 }
 
@@ -396,6 +404,46 @@ footer {
   width: 98%;
   margin-top: 8%;
   border: 1px solid rgb(230, 230, 230);
-  border-radius: 5px;
+  border-radius: 10px;
   padding-left: 10px;
+}
+
+footer .contact-me {
+  height: 56px;
+  width: 96%;
+  display: flex;
+  margin-top: 60px;
+  font-weight: bolder;
+  font-size: 25px;
+  line-height: 52px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+footer .contact-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  color: #ebebff;
+  padding: 0 20px;
+  margin-top: 18px;
+  font-size: 18px;
+}
+
+footer .buttons {
+  display: flex;
+  justify-content: flex-start;
+  width: 340px;
+  height: 75px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+footer .buttons button {
+  width: 150px;
 }
