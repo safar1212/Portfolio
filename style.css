@@ -57,6 +57,7 @@ h1 {
 }
 
 .picture img {
+  transition: transform 330ms ease-in-out;
   width: 290px;
   margin: 0 auto;
   display: block;
@@ -237,6 +238,7 @@ li {
 }
 
 .buttons button {
+  transition: transform 330ms ease-in-out;
   height: 50px;
   width: 140px;
   font-size: 20px;
@@ -251,6 +253,7 @@ footer .buttons button {
 }
 
 .buttons button:hover {
+  transform: scale(1.2);
   border-radius: 10px;
   color: white;
   background-color: #6070ff;
