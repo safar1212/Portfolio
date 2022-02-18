@@ -102,16 +102,23 @@ h1 {
 }
 
 #head a {
-  margin-left: 15px;
   font-weight: bold;
   color: rgb(55, 113, 223);
   text-decoration: none;
 }
 
-#head a:hover {
-  text-decoration: underline;
+#head a::after {
+  content: '';
+  width: 0px;
+  height: 3px;
+  display: block;
+  background: #6070ff;
+  transition: 300ms;    
 }
 
+#head a:hover::after {
+  width: 100%;
+}
 #head {
   height: 40px;
   display: flex;
@@ -584,7 +591,6 @@ footer .contact-para {
   }
 
   #head a {
-    margin-left: 15px;
     font-weight: bold;
     color: #344563;
     text-decoration: none;
