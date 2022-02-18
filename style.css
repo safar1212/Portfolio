@@ -442,11 +442,16 @@ footer {
 }
 
 .contact-form {
-  display: grid;
+  display: flex;
   justify-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
 }
 
 .contact-form div input {
+  border: 20px red solid;
   height: 45px;
   width: 96.5%;
   margin-top: 10%;
