@@ -451,7 +451,6 @@ footer {
 }
 
 .contact-form div input {
-  border: 20px red solid;
   height: 45px;
   width: 96.5%;
   margin-top: 10%;
@@ -495,7 +494,7 @@ footer .contact-para {
   font-size: 18px;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 992px) {
   .first-page {
     border-bottom-left-radius: 150px;
     width: 100%;
