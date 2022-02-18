@@ -10,6 +10,8 @@
 
 ## Getting Started
 
+### Create a desktop and mobile version website
+
 ### Create a beautiful header
 
 ### Create a stunning headline

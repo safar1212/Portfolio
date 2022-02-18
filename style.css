@@ -81,7 +81,7 @@ h1 {
 }
 
 .picture img:hover {
-  border: 2px blue solid;
+  transform: scale(1.05);
   border-radius: 15px;
 }
 
@@ -490,7 +490,7 @@ footer .contact-para {
   font-size: 18px;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1100px) {
+@media screen and (min-width: 1050px) {
   .first-page {
     border-bottom-left-radius: 150px;
     width: 100%;
@@ -548,7 +548,8 @@ footer .contact-para {
   }
 
   .picture img {
-    width: 400px;
+    width: 90%;
+    height: 395px;
     margin: 0 auto;
     padding: 0;
   }
@@ -605,11 +606,12 @@ footer .contact-para {
   }
 
   .first-page .name {
-    font-size: 20px;
     font-weight: 900;
   }
 
   .first-page .name h1 {
+    font-weight: bold;
+    font-size: 48px;
     margin: 0;
   }
 
@@ -618,6 +620,31 @@ footer .contact-para {
     margin: 0 auto;
     padding: 0 0 0 0;
     font-size: 14px;
+  }
+
+  .year p {
+    margin: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+    color: rgb(116, 111, 111);
+  }
+
+  .skills p {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 4px 15px 4px 0;
+    align-items: center;
+    font-size: 14px;
+    background-color: whitesmoke;
+    color: rgb(85, 147, 228);
+    font-weight: bold;
+  }
+
+  .headline .para p {
+    font-weight: 200;
+    font-size: 20px;
+    color: #344563;
   }
 
   .first-page .para {
@@ -632,15 +659,26 @@ footer .contact-para {
     color: rgb(55, 113, 223);
   }
 
+  .first-page .text p {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    line-height: 100%;
+  }
+
   .icons ul {
     display: flex;
+    width: 170.17px;
+    height: 20px;
+    left: 260px;
+    top: 642px;
   }
 
   /* main-section-page-2 */
 
   .main {
     background-color: whitesmoke;
-    height: 1900px;
+    height: 2200px;
     display: grid;
     padding: 80px;
     align-content: space-around;
@@ -652,7 +690,7 @@ footer .contact-para {
     border-radius: 15px;
     padding: 15px 15px;
     background-color: white;
-    height: 335px;
+    height: 400px;
   }
 
   /* Page-2 */
@@ -677,6 +715,10 @@ footer .contact-para {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
   }
 
   .year {
@@ -686,15 +728,14 @@ footer .contact-para {
     padding-left: 15px;
   }
 
-  .year p {
-    margin: 4px;
-    padding-right: 10px;
-    font-weight: bold;
-    color: rgb(116, 111, 111);
-  }
-
-  .para p {
+  .main .para p {
     margin: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .skills {
@@ -703,18 +744,8 @@ footer .contact-para {
     display: flex;
     margin: 1px;
     padding-left: 15px;
-  }
-
-  .skills p {
-    display: flex;
-    border-radius: 10px;
-    justify-content: space-between;
-    margin: 4px 15px 4px 0;
-    align-items: center;
-    font-size: 14px;
-    background-color: whitesmoke;
-    color: rgb(85, 147, 228);
-    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .buttons {
@@ -725,10 +756,12 @@ footer .contact-para {
   }
 
   .buttons button {
-    height: 35px;
-    width: 120px;
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
     font-size: 16px;
-    border: 1px solid rgb(85, 147, 228);
+
+    /* border: 1px solid rgb(85, 147, 228); */
     background-color: white;
     color: rgb(25, 117, 238);
   }
@@ -738,8 +771,13 @@ footer .contact-para {
     direction: rtl;
   }
 
+  .pic {
+    width: 50%;
+  }
+
   .details {
     direction: ltr;
+    width: 50%;
   }
 
   .page-3 .year {
@@ -835,8 +873,8 @@ footer .contact-para {
   }
 
   footer .buttons button {
-    width: 123px;
-    height: 42px;
+    width: 140px;
+    height: 55px;
   }
 
   .about-us .buttons {
@@ -846,7 +884,7 @@ footer .contact-para {
   }
 
   .about-us .buttons button {
-    width: 144px;
+    width: 150px;
     height: 48px;
   }
 
