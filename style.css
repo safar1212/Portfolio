@@ -57,6 +57,7 @@ h1 {
 }
 
 .picture img {
+  transition: transform 330ms ease-in-out;
   width: 290px;
   margin: 0 auto;
   display: block;
@@ -101,14 +102,21 @@ h1 {
 }
 
 #head a {
-  margin-left: 15px;
   font-weight: bold;
   color: rgb(55, 113, 223);
   text-decoration: none;
 }
 
-#head a:hover {
-  text-decoration: underline;
+#head a::after {
+  width: 0;
+  height: 3px;
+  display: block;
+  background: #6070ff;
+  transition: 300ms;
+}
+
+#head a:hover::after {
+  width: 100%;
 }
 
 #head {
@@ -237,6 +245,7 @@ li {
 }
 
 .buttons button {
+  transition: transform 330ms ease-in-out;
   height: 50px;
   width: 140px;
   font-size: 20px;
@@ -251,6 +260,7 @@ footer .buttons button {
 }
 
 .buttons button:hover {
+  transform: scale(1.2);
   border-radius: 10px;
   color: white;
   background-color: #6070ff;
@@ -581,7 +591,6 @@ footer .contact-para {
   }
 
   #head a {
-    margin-left: 15px;
     font-weight: bold;
     color: #344563;
     text-decoration: none;
