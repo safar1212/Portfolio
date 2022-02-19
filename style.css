@@ -113,17 +113,18 @@ h1 {
   height: 3px;
   display: block;
   background: #6070ff;
-  transition: 300ms;    
+  transition: 300ms;
 }
 
 #head a:hover::after {
   width: 100%;
 }
+
 #head {
   height: 40px;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 0px auto;
   align-items: center;
   width: 100%;
 }
