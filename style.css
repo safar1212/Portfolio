@@ -108,7 +108,7 @@ h1 {
 }
 
 #head a::after {
-  width: 0px;
+  width: 0;
   height: 3px;
   display: block;
   background: #6070ff;
@@ -123,7 +123,7 @@ h1 {
   height: 40px;
   display: flex;
   justify-content: space-between;
-  margin: 0px auto;
+  margin: 0 auto;
   align-items: center;
   width: 100%;
 }
@@ -137,7 +137,7 @@ h1 {
 
 .para {
   width: 260px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .first-page .para {
