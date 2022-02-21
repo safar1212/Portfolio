@@ -1,6 +1,6 @@
 # Portfolio
 
-> This is a portfolio website, in which I have organized all my projects regarding software development
+> This is a portfolio website, in which I have organized all my projects regarding software development.
 
 
 ## Built With
@@ -21,6 +21,10 @@
 ### Create an about us page
 
 ### Create a footer
+
+## Live Preview
+
+-This website is build on [GubhubPage] (https://safar1212.github.io/Portfolio/)
 
 
 
