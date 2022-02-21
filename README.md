@@ -24,7 +24,7 @@
 
 ## Live Preview
 
--This website is build on [GubhubPage] (https://safar1212.github.io/Portfolio/)
+-This site was built using [GitHub Pages](https://safar1212.github.io/Portfolio/).
 
 
 
