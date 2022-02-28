@@ -94,11 +94,53 @@ h1 {
   width: 100%;
 }
 
+#cover {
+  position: fixed;
+  background: #6070ff;
+  opacity: 0.9;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  top: 0px;
+}
+
+#menu {
+  display: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: left;
+  list-style-type: none;
+  padding-top: 60px;
+  flex-direction: column;
+  gap: 20px;
+    
+}
+
+#n1 {
+  color: white;
+  text-decoration: none;
+}
+
+#crossIcon {
+  display: none;
+  float: right;
+  width: 40px;
+  height: 40px;
+  padding-top: 35px;
+  padding-right: 10px;
+}
+
 #head img {
   padding-right: 15px;
   width: 30px;
   height: 20px;
   margin: 0 auto;
+}
+
+#head .logo {
+  padding-left: 15px;
 }
 
 #head a {
@@ -538,6 +580,10 @@ footer .contact-para {
       17% 83.5%,
       48% 23%;
     background-repeat: no-repeat;
+  }
+
+  #cover {
+    display: none;
   }
 
   li {
