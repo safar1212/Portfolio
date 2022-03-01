@@ -5,7 +5,7 @@
 
 ## Built With
 
-- HTML and CSS
+- HTML, CSS and Javascript
 
 
 ## Getting Started
@@ -35,12 +35,6 @@
 - GitHub: [@githubhandle](https://github.com/safar1212)
 - Twitter: [@twitterhandle](https://twitter.com/safarali999)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/safar-ali999)
-
-👤 **Ali Atayee**
-
-- GitHub: [@githubhandle](https://github.com/aliatayee)
-- Twitter: [@twitterhandle](https://twitter.com/aliatayee233)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/aliatayee-23)
 
 ## 🤝 Contributing
 

@@ -101,7 +101,7 @@ h1 {
   background-size: cover;
   backdrop-filter: blur(10px);
   z-index: 1;
-  top: 0px;
+  top: 0;
 }
 
 #menu {
@@ -110,15 +110,19 @@ h1 {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  align-items: left;
+  align-items: baseline;
   list-style-type: none;
   padding-top: 60px;
   flex-direction: column;
   gap: 20px;
-    
 }
 
-#n1 {
+/* #n1 {
+  color: white;
+  text-decoration: none;
+} */
+
+.n4 {
   color: white;
   text-decoration: none;
 }

@@ -1,6 +1,6 @@
 const burgerIcon1 = document.querySelector("#burgerIcon");
 const crossIcon1 = document.querySelector("#crossIcon");
-const section = document.querySelectorAll("#n1");
+const section = document.querySelectorAll(".n4");
 
 burgerIcon1.addEventListener("click", () => {
   document.getElementById("cover").style.cssText =
@@ -11,14 +11,14 @@ burgerIcon1.addEventListener("click", () => {
 });
 section.forEach((e) => {
   e.addEventListener("click", function () {
-    document.getElementById("cover").style.cssText = " width: 0%; height: 0%; ";
-    document.getElementById("menu").style.cssText = "display: none;";
+    document.getElementById("cover").style.cssText = " display: none;";
+    document.getElementsByClassName("menu").style.cssText = "display: none;";
     document.getElementById("crossIcon").style.cssText = "display: none;";
   });
 });
 
 crossIcon1.addEventListener("click", function () {
-  document.getElementById("cover").style.cssText = " width: 0%; height: 0%; ";
-  document.getElementById("menu").style.cssText = "display: none;";
+  document.getElementById("cover").style.cssText = " width: 0%; height: 0%; display: none;";
+  document.getElementsByClassName("menu").style.cssText = "display: none;";
   document.getElementById("crossIcon").style.cssText = "display: none;";
 });
