@@ -25,15 +25,22 @@
 <body>
 
     <!-- header and headline -->
-
+    <div id="cover">
+        <img id="crossIcon" src="./images/cross.svg" alt="cross-icon">
+        <ul id="menu"> 
+            <li ><a href="#projects-start" id="n1" class="n4">Portofolio </a></li>
+            <li ><a href="#about-us-start" id="n2" class="n4">About</a></li>
+            <li ><a href="#contact-me-start" id="n3" class="n4">Contact</a></li>
+        </ul>
+    </div>
     <section class="first-page">
             <nav id="head">
                 <a class="logo" href="#">Safar Ali</a>
-                <a href="#"><img src="./images/Union.png" alt="burger-icon"></a>
+                <a href="#"><img id="burgerIcon" src="./images/Union.png" alt="burger-icon"></a>
                 <ul class="menu-link">
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#"> Contact </a></li>
+                    <li><a href="#projects-start">Projects</a></li>
+                    <li><a href="#about-us-start">About</a></li>
+                    <li><a href="#contact-me-start"> Contact </a></li>
                 </ul>
             </nav>
         <section class="headline">
@@ -53,7 +60,7 @@
                     <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/safar1212"><img src="./images/github.png" alt="github-page"></a></li>
                     <li><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/safar-ali999/"><img src="./images/Linkedin.png" alt="linkedin-page"></a></li>
                     <li><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/SafarAli999"><img src="./images/twitter.png" alt="twitter-page"></a></li>
-                    <li><a href=""><img src="./images/Vector.png" alt="vector-page"></a></li>
+                    <li><a href="#"><img src="./images/Vector.png" alt="vector-page"></a></li>
                 </ul>
             </div>
         </section>
@@ -65,7 +72,7 @@
 
         <!-- page-2 -->
 
-        <div class="page-2">
+        <div class="page-2" id="projects-start">
             <div class="pic">
                 <div class="picture">
                     <a href="#"><img src="./images/picture-1.svg" alt="picture-1"></a>
@@ -93,7 +100,7 @@
                 </div>
             </div>
         </div>
-
+           <!-- page-3 -->
         <div class="page-3">
             <div class="pic">
                 <div class="picture">
@@ -122,7 +129,7 @@
                 </div>
             </div>
         </div>
-
+        <!-- page-4 -->
         <div class="page-4">
             <div class="pic">
                 <div class="picture">
@@ -151,7 +158,7 @@
                 </div>
             </div>
         </div>
-
+       <!-- page-5 -->
         <div class="page-5">
             <div class="pic">
                 <div class="picture">
@@ -183,9 +190,9 @@
 
     </main>
 
-    <!-- About Us page-section -->
+    <!-- About Us page -->
 
-    <div class="about-us">
+    <div class="about-us" id="about-us-start">
         <div class="first-half">
             <div class="title">
                 <h2>About <br> Myself </h2>
@@ -255,7 +262,7 @@
     <!-- footer section -->
 
     <footer>
-        <div class="contact-me">
+        <div class="contact-me" id="contact-me-start">
             <h2>Contact Me</h2>
         </div>
         <div class="contact-para">
@@ -277,6 +284,7 @@
             </div>
         </form>
     </footer>
+    <script src="./index.js"></script>    
 </body>
 
 </html>
