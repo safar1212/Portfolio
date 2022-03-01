@@ -117,14 +117,44 @@ h1 {
   gap: 20px;
 }
 
-/* #n1 {
-  color: white;
-  text-decoration: none;
-} */
-
 .n4 {
   color: white;
   text-decoration: none;
+}
+
+#popup {
+  display: none;
+}
+
+#proj {
+  position: fixed; 
+  border: red 2px solid; 
+  border-radius: 15px;
+  background-color: white; 
+  width: 90%;
+  height: 791px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  margin-left: 18px;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+#proj .heading h2 {
+  padding: 0px;
+}
+
+#proj .skills {
+  border: 2px green solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  padding: 0px;
+  gap: 8px;
 }
 
 #crossIcon {
