@@ -136,6 +136,7 @@ h1 {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
+  margin: 0 auto;
   margin-top: 25px;
   margin-left: 18px;
   justify-content: space-around;
@@ -147,14 +148,36 @@ h1 {
 }
 
 #proj .skills {
-  border: 2px green solid;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
-  background-color: whitesmoke;
+  border-radius: 14px;
+  background-color: white;
   padding: 0px;
-  gap: 8px;
+  gap: 18px;
+  height: 43px;
+}
+
+#proj .skills li {
+  /* border: 2px red solid; */
+  background-color: whitesmoke;
+}
+
+#proj .buttons {
+  padding: 33px 0;
+    margin: 0 auto;
+    width: 258px;
+    display: flex;
+    gap: 18px;
+    width: 307px;
+}
+
+#proj .buttons button {
+  width: 200px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #crossIcon {
