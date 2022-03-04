@@ -356,6 +356,11 @@ footer .buttons button {
   padding: 0;
 }
 
+.about-us .buttons button {
+  width: 175px;
+  margin-left: 20px;
+}
+
 #proj .heading button {
   border: 2px white solid;
   background-color: white;
@@ -400,11 +405,6 @@ footer .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.about-us .buttons button {
-  width: 175px;
-  margin-left: 20px;
 }
 
 #proj .buttons {
