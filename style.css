@@ -126,60 +126,6 @@ h1 {
   display: none;
 }
 
-#proj {
-  position: fixed; 
-  border: red 2px solid; 
-  border-radius: 15px;
-  background-color: white; 
-  width: 90%;
-  height: 791px;
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-left: 18px;
-  justify-content: space-around;
-  padding: 0px;
-}
-
-#proj .heading h2 {
-  padding: 0px;
-}
-
-#proj .skills {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 14px;
-  background-color: white;
-  padding: 0px;
-  gap: 18px;
-  height: 43px;
-}
-
-#proj .skills li {
-  /* border: 2px red solid; */
-  background-color: whitesmoke;
-}
-
-#proj .buttons {
-  padding: 33px 0;
-    margin: 0 auto;
-    width: 258px;
-    display: flex;
-    gap: 18px;
-    width: 307px;
-}
-
-#proj .buttons button {
-  width: 200px;
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-  align-items: center;
-}
-
 #crossIcon {
   display: none;
   float: right;
@@ -382,11 +328,100 @@ footer .buttons button {
   background-color: white;
 }
 
-/* page-3 */
+#proj {
+  position: fixed;
+  border-radius: 15px;
+  background-color: white;
+  width: 90%;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: auto auto;
+  justify-content: center;
+  padding: 0;
+  inset: 0;
+  align-items: center;
+}
 
 .page-3 .heading h2 {
   font-size: 35px;
 }
+
+.page-5 .heading h2 {
+  font-size: 35px;
+}
+
+#proj .heading h2 {
+  padding: 0;
+}
+
+#proj .heading button {
+  border: 2px white solid;
+  background-color: white;
+}
+
+#proj .picture img {
+  width: 269px;
+}
+
+#proj .skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background-color: white;
+  padding: 0;
+  gap: 18px;
+  height: 43px;
+}
+
+#proj .skills li {
+  background-color: whitesmoke;
+  color: rgb(25, 117, 238);
+}
+
+footer .buttons {
+  display: flex;
+  justify-content: flex-start;
+  width: 340px;
+  height: 55px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.about-us .buttons {
+  width: 295px;
+  margin: 0 auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.about-us .buttons button {
+  width: 175px;
+}
+
+#proj .buttons {
+  margin: 0 auto;
+  display: flex;
+  gap: 18px;
+  width: 307px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#proj .buttons button {
+  width: 130px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* page-3 */
 
 .page-3 .year {
   margin-top: 20px;
@@ -395,10 +430,6 @@ footer .buttons button {
 /* page-4 */
 
 /* page-5 */
-
-.page-5 .heading h2 {
-  font-size: 35px;
-}
 
 .page-5 .year {
   margin-top: 25px;
@@ -440,28 +471,6 @@ footer .buttons button {
 .about-us .icons {
   width: 290px;
   margin: 0 auto;
-}
-
-footer .buttons {
-  display: flex;
-  justify-content: flex-start;
-  width: 340px;
-  height: 55px;
-  padding-left: 15px;
-  padding-top: 15px;
-  padding-bottom: 5px;
-}
-
-.about-us .buttons {
-  width: 295px;
-  margin: 0 auto;
-  height: 40px;
-  display: flex;
-  align-items: center;
-}
-
-.about-us .buttons button {
-  width: 175px;
 }
 
 .lang {
@@ -689,9 +698,112 @@ footer .contact-para {
     width: 55px;
   }
 
+  /* popup Windows style end */
+
+  #proj {
+    overflow: auto;
+    width: 80%;
+    margin: auto auto;
+    height: 730px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .pic {
+    width: 50%;
+  }
+
+  #proj .pic {
+    width: 95%;
+  }
+
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  #proj .heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   #head img {
     display: none;
   }
+
+  #proj .picture img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .details {
+    direction: ltr;
+    width: 50%;
+  }
+
+  #proj .details {
+    margin-top: 30px;
+    display: flex;
+    width: 95%;
+  }
+
+  .para {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    font-size: 14px;
+  }
+
+  .first-page .para {
+    margin-left: 20px;
+    margin-right: 30px;
+    color: rgb(34, 32, 32);
+  }
+
+  #proj .para {
+    display: inline;
+    width: 100%;
+  }
+
+  #proj #skill-button {
+    width: 100%;
+  }
+
+  .buttons {
+    padding: 8px 0;
+    margin: 1px;
+    width: 360px;
+    padding-left: 15px;
+  }
+
+  footer .buttons {
+    display: flex;
+    justify-content: center;
+    width: 340px;
+    height: 55px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+  }
+
+  .about-us .buttons {
+    margin: 1px;
+    padding: 1px;
+    height: 40px;
+  }
+
+  #proj .buttons {
+    width: 445px;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  /* popup windows style end */
 
   #head a {
     font-weight: bold;
@@ -731,13 +843,6 @@ footer .contact-para {
     margin: 0;
   }
 
-  .para {
-    width: 95%;
-    margin: 0 auto;
-    padding: 0 0 0 0;
-    font-size: 14px;
-  }
-
   .year p {
     margin: 5px;
     padding-right: 10px;
@@ -761,12 +866,6 @@ footer .contact-para {
     font-weight: 200;
     font-size: 20px;
     color: #344563;
-  }
-
-  .first-page .para {
-    margin-left: 20px;
-    margin-right: 30px;
-    color: rgb(34, 32, 32);
   }
 
   .first-page .text {
@@ -817,12 +916,6 @@ footer .contact-para {
     height: 400px;
   }
 
-  .heading {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-
   .heading h2 {
     width: 360px;
     margin: 1px;
@@ -864,13 +957,6 @@ footer .contact-para {
     padding-bottom: 10px;
   }
 
-  .buttons {
-    padding: 8px 0;
-    margin: 1px;
-    width: 360px;
-    padding-left: 15px;
-  }
-
   .buttons button {
     border-radius: 10px;
     height: 50px;
@@ -885,15 +971,6 @@ footer .contact-para {
   .page-3 {
     display: flex;
     direction: rtl;
-  }
-
-  .pic {
-    width: 50%;
-  }
-
-  .details {
-    direction: ltr;
-    width: 50%;
   }
 
   .page-3 .year {
@@ -978,25 +1055,9 @@ footer .contact-para {
     padding-left: 15px;
   }
 
-  footer .buttons {
-    display: flex;
-    justify-content: center;
-    width: 340px;
-    height: 55px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 5px;
-  }
-
   footer .buttons button {
     width: 140px;
     height: 55px;
-  }
-
-  .about-us .buttons {
-    margin: 1px;
-    padding: 1px;
-    height: 40px;
   }
 
   .about-us .buttons button {
