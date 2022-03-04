@@ -333,7 +333,7 @@ footer .buttons button {
   border-radius: 15px;
   background-color: white;
   width: 90%;
-  height: 740px;
+  height: 713px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -379,11 +379,13 @@ footer .buttons button {
 #proj .skills li {
   background-color: whitesmoke;
   color: rgb(25, 117, 238);
+  width: 80px;
+  height: 30px;
 }
 
 footer .buttons {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 340px;
   height: 55px;
   padding-left: 15px;
@@ -397,10 +399,12 @@ footer .buttons {
   height: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .about-us .buttons button {
   width: 175px;
+  margin-left: 20px;
 }
 
 #proj .buttons {
@@ -796,8 +800,8 @@ footer .contact-para {
   }
 
   #proj .buttons {
-    width: 445px;
-    justify-content: flex-start;
+    width: 370px;
+    justify-content: center;
     padding: 0;
     margin: 0;
     margin-top: 10px;
