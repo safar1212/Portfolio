@@ -6,11 +6,11 @@ body {
   margin: 0;
 }
 
-#error-msg
-{
-color: red;
-font-style: normal;
+#error-msg {
+  color: red;
+  font-style: normal;
 }
+
 /* header and headline */
 
 h1 {

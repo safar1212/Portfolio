@@ -278,10 +278,10 @@ const email = document.getElementById('email');
 const msg = '<p class="error-msg"> Email should be in lowercase! <p> ';
 const regex = /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
 form1.addEventListener('submit', (e) => {
-  console.log("submit button clicked");
+  console.log('submit button clicked');
   const { value } = email;
   if (!(value.match(regex))) {
-    console.log("Value not matched");
+    console.log('Value not matched');
     errorMsg.innerHTML = msg;
     e.preventDefault();
   }
