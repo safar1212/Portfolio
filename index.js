@@ -278,7 +278,7 @@ closeWin();
 const form1 = document.querySelector('.contact-form');
 const errorMsg = document.getElementById('error-msg');
 const email = document.getElementById('email');
-const msg = '<p id="error-msg"> email should be in lowercase <p> ';
+const msg = '<p class="error-msg"> email should be in lowercase <p> ';
 const regex = /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
 form1.addEventListener('submit', (e) => {
   console.log("button clicked");
