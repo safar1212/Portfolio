@@ -270,21 +270,20 @@ popup4b.addEventListener('click', () => {
   document.getElementById('cover').style.cssText = 'display: block; z-index: 3; width: 100%; height: 100%; background: #c1c7c0;';
 });
 
-closeWin();
-
-
 // Form validation section
 
-const form1 = document.querySelector('.contact-form');
+const form1 = document.querySelector('#contact-form1');
 const errorMsg = document.getElementById('error-msg');
 const email = document.getElementById('email');
-const msg = '<p class="error-msg"> email should be in lowercase <p> ';
+const msg = '<p class="error-msg"> Email should be in lowercase! <p> ';
 const regex = /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
 form1.addEventListener('submit', (e) => {
-  console.log("button clicked");
+  console.log("submit button clicked");
   const { value } = email;
   if (!(value.match(regex))) {
+    console.log("Value not matched");
     errorMsg.innerHTML = msg;
     e.preventDefault();
   }
 });
+closeWin();
