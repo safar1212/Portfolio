@@ -1,6 +1,16 @@
 # Portfolio
 
-> This is a portfolio website, in which I have organized all my projects regarding software development.
+> This is a portfolio website, in which I have organized all my projects regarding software development, and Web development.
+
+## Desktop Version:
+
+![2022-06-03_20-08-45](https://user-images.githubusercontent.com/78845635/171881943-a7a913da-9c3c-4d23-baca-3702c78ebe1a.jpg)
+
+
+## Mobile Version:
+
+![2022-06-03_20-09-28](https://user-images.githubusercontent.com/78845635/171881978-6c03b8a0-70dc-436c-8dde-0acd4240cb80.jpg)
+
 
 
 ## Built With
