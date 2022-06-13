@@ -1,6 +1,6 @@
 # Portfolio
 
-> This is a portfolio website, in which I have organized all my projects regarding software development, and Web development.
+> This is a portfolio website, in which I have organized all my projects regarding software development, and Web development. Moreover, I have add three sections in this website. In the projects section, you can our my portfolio, in the about section, you can get information about me, and through contact us form, you can share your ideas and recommandations with us!
 
 ## Desktop Version:
 
