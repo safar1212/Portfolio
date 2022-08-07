@@ -62,4 +62,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is lincensed work from Safar Ali.
+This project is owned my Safar Ali
