@@ -29,52 +29,44 @@ let li = '';
 
 const project = [
   {
-    id: "p1",
-    name: "Leaderboard",
-    featuredImage: "./images/project-1.jpg",
-    discription:
-      "This web app allows users to enter name of players including their scores in any perticuler game.",
-    discription1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technology: ["HTML", "CSS", "JavaScript"],
-    liveVersion: "See Live",
-    source: "Source",
+    id: 'p1',
+    name: 'Tonic',
+    featuredImage: './images/picture-1.svg',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    discription1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technology: ['HTML', 'CSS', 'JavaScript'],
+    liveVersion: 'See Live',
+    source: 'Source',
   },
   {
-    id: "p2",
-    name: "Find breed",
-    featuredImage: "./images/project-2.jpg",
-    discription:
-      "This web app uses an online api to show different breeds of dogs. and their perticuler attributes, such as sub breeds.",
-    discription1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technology1: ["HTML", "React", "JavaScript"],
-    liveVersion: "See Live",
-    source: "Source",
+    id: 'p2',
+    name: 'Multi-Post',
+    featuredImage: './images/picture-2.svg',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    discription1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technology: ['HTML', 'CSS', 'JavaScript'],
+    liveVersion: 'See Live',
+    source: 'Source',
   },
   {
-    id: "p2",
-    name: "Travel Hub",
-    featuredImage: "./images/project-3.jpg",
-    discription:
-      "This is a website regarding travelling to space. In this app users can boook rockets and also reserve different missions as per their own interests.",
-    discription1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technology: ["HTML", "React", "JavaScript"],
-    liveVersion: "See Live",
-    source: "Source",
+    id: 'p2',
+    name: 'Tonic',
+    featuredImage: './images/picture-3.svg',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    discription1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technology: ['HTML', 'CSS', 'JavaScript'],
+    liveVersion: 'See Live',
+    source: 'Source',
   },
   {
-    id: "p2",
-    name: "Bookstore",
-    featuredImage: "./images/project-4.jpg",
-    discription:
-      "This app can be used as management systems for books. Users can store books with their perticuler name, the Author and the category of the book.",
-    discription1:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technology: ["HTML", "React", "JavaScript"],
-    liveVersion: "See Live",
-    source: "Source",
+    id: 'p2',
+    name: 'Multi-Post',
+    featuredImage: './images/picture-4.svg',
+    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    discription1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    technology: ['HTML', 'CSS', 'JavaScript'],
+    liveVersion: 'See Live',
+    source: 'Source',
   },
 ];
 
@@ -94,8 +86,8 @@ const popupCode = `
     </div>
     <div class="year">
        <p>Safar</p>
-       <p>Fullstack Dev</p>
-       <p>2022</p>
+       <p>Backend Dev</p>
+       <p>2015</p>
     </div>
     <div class="picture">
         <a href="#"><img src= ${project[0].featuredImage} alt="picture-1"></a>
@@ -111,8 +103,8 @@ const popupCode = `
     </ul>   
 
     <div class="buttons">
-        <a style="text-decoration: none" target="_blank" href="https://safar1212.github.io/Leaderboard-app/"><button type="submit">${project[0].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button></a>
-        <a style="text-decoration: none" target="_blank" href="https://github.com/safar1212/Leaderboard-app"><button type="submit">${project[0].source}<img src= "./images/source.svg" alt="picture-1"></button></a>
+        <button type="submit">${project[0].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button>
+        <button type="submit">${project[0].source}<img src= "./images/source.svg" alt="picture-1"></button>
     </div>
     </div>
 </div>
@@ -146,8 +138,8 @@ const popupCode1 = `
     </div>
     <div class="year">
        <p>Safar</p>
-       <p>FullStack Dev</p>
-       <p>2022</p>
+       <p>Backend Dev</p>
+       <p>2015</p>
     </div>
     <div class="picture">
         <a href="#"><img src= ${project[1].featuredImage} alt="picture-1"></a>
@@ -159,14 +151,12 @@ const popupCode1 = `
     </div>
     <div id= "skill-button">
     <ul class="skills">
-        <li class="skills">HTML</li>
-        <li class="skills">React</li>
-        <li class="skills">Javascript</li>
+        ${li}
     </ul>   
 
     <div class="buttons">
-        <a style="text-decoration: none" target="_blank" href="https://safar1212.github.io/dogfacts/"><button type="submit">${project[1].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button><a>
-        <a style="text-decoration: none" target="_blank" href="https://github.com/safar1212/dogfacts"><button type="submit">${project[1].source}<img src= "./images/source.svg" alt="picture-1"></button><a>
+        <button type="submit">${project[1].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button>
+        <button type="submit">${project[1].source}<img src= "./images/source.svg" alt="picture-1"></button>
     </div>
     </div>
 </div>
@@ -196,8 +186,8 @@ const popupCode2 = `
     </div>
     <div class="year">
        <p>Safar</p>
-       <p>Fullstack Dev</p>
-       <p>2022</p>
+       <p>Backend Dev</p>
+       <p>2015</p>
     </div>
     <div class="picture">
         <a href="#"><img src= ${project[2].featuredImage} alt="picture-1"></a>
@@ -209,14 +199,12 @@ const popupCode2 = `
     </div>
     <div id= "skill-button">
         <ul class="skills">
-          <li class="skills">HTML</li>
-          <li class="skills">React</li>
-          <li class="skills">Javascript</li>
+            ${li}
         </ul>   
 
         <div class="buttons">
-            <a style="text-decoration: none" target="_blank" href="https://github.com/safar1212/traveler-hub"><button type="submit">${project[2].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button><a>
-            <a style="text-decoration: none" target="_blank" href="https://safar1212.github.io/traveler-hub/"><button type="submit">${project[2].source}<img src= "./images/source.svg" alt="picture-1"></button><a>
+            <button type="submit">${project[2].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button>
+            <button type="submit">${project[2].source}<img src= "./images/source.svg" alt="picture-1"></button>
         </div>
     </div>
 </div>
@@ -246,8 +234,8 @@ const popupCode3 = `
     </div>
     <div class="year">
        <p>Safar</p>
-       <p>Fullstack Dev</p>
-       <p>2022</p>
+       <p>Backend Dev</p>
+       <p>2015</p>
     </div>
     <div class="picture">
         <a href="#"><img src= ${project[3].featuredImage} alt="picture-1"></a>
@@ -259,14 +247,12 @@ const popupCode3 = `
     </div>
     <div id= "skill-button">
     <ul class="skills">
-      <li class="skills">HTML</li>
-      <li class="skills">React</li>
-      <li class="skills">Javascript</li>
+        ${li}
     </ul>   
 
     <div class="buttons">
-        <a style="text-decoration: none" target="_blank" href="https://stupendous-dieffenbachia-47916f.netlify.app/"><button type="submit">${project[3].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button><a>
-        <a style="text-decoration: none" target="_blank" href="https://github.com/safar1212/reactjs-bookstore"><button type="submit">${project[3].source}<img src= "./images/source.svg" alt="picture-1"></button><a>
+        <button type="submit">${project[3].liveVersion}<img src= "./images/liveVersion.svg" alt="picture-1"></button>
+        <button type="submit">${project[3].source}<img src= "./images/source.svg" alt="picture-1"></button>
     </div>
     </div>
 </div>
