@@ -42,7 +42,7 @@ const project = [
   },
   {
     id: "p2",
-    name: "Find out breed",
+    name: "Find breed",
     featuredImage: "./images/project-2.jpg",
     discription:
       "This web app uses an online api to show different breeds of dogs. and their perticuler attributes, such as sub breeds.",
@@ -54,7 +54,7 @@ const project = [
   },
   {
     id: "p2",
-    name: "Traveler's Hub",
+    name: "Travel Hub",
     featuredImage: "./images/project-3.jpg",
     discription:
       "This is a website regarding travelling to space. In this app users can boook rockets and also reserve different missions as per their own interests.",
@@ -66,7 +66,7 @@ const project = [
   },
   {
     id: "p2",
-    name: "Bookstore CMS",
+    name: "Bookstore",
     featuredImage: "./images/project-4.jpg",
     discription:
       "This app can be used as management systems for books. Users can store books with their perticuler name, the Author and the category of the book.",
@@ -159,7 +159,9 @@ const popupCode1 = `
     </div>
     <div id= "skill-button">
     <ul class="skills">
-        ${li}
+        <li class="skills">HTML</li>
+        <li class="skills">React</li>
+        <li class="skills">Javascript</li>
     </ul>   
 
     <div class="buttons">
@@ -207,7 +209,9 @@ const popupCode2 = `
     </div>
     <div id= "skill-button">
         <ul class="skills">
-            ${li}
+          <li class="skills">HTML</li>
+          <li class="skills">React</li>
+          <li class="skills">Javascript</li>
         </ul>   
 
         <div class="buttons">
@@ -255,7 +259,9 @@ const popupCode3 = `
     </div>
     <div id= "skill-button">
     <ul class="skills">
-        ${li}
+      <li class="skills">HTML</li>
+      <li class="skills">React</li>
+      <li class="skills">Javascript</li>
     </ul>   
 
     <div class="buttons">
