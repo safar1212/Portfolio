@@ -1,4 +1,4 @@
-# Wellcome
+# Welcome
 
 # Portfolio
 
