@@ -32,9 +32,10 @@
 
 ### Create a footer
 
+
 ## Live Preview
 
--This site was built using [GitHub Pages](https://safar1212.github.io/Portfolio/).
+-This site was built using Github Pages [Live Version](https://safar1212.github.io/Portfolio/).
 
 
 
