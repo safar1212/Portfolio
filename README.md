@@ -17,7 +17,7 @@
 
 ## Built With
 
-- HTML, CSS and Javascript
+- HTML, CSS and JavaScript
 
 
 ## Getting Started
